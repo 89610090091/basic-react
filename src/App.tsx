@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Commit For Start</h1>
-      </header>
+      <h1>Single-page</h1>
+      <ul>
+        <li>js</li>
+        <li>css</li>
+        <li>react</li>
+        <li>html</li>
+      </ul>
     </div>
   );
 }
