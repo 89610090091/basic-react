@@ -1,34 +1,20 @@
-import React from 'react';
 import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Technologies />
-    </div>
-  );
-}
+    <div className='app-wrapper'>
+      <header className='header'>
+        <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1724716800&semt=ais_hybrid" alt="" />
+      </header>
 
-const Header = () => {
-  return (
-    <div>
-      <a href='#'>Home</a>
-      <a href='#'>News Feed</a>
-      <a href='#'>Message</a>
-    </div>
-  );
-}
+      <nav className='nav'>
+        <div>Profile</div>
+        <div>Message</div>
+      </nav>
 
-const Technologies = () => {
-  return (
-    <div>
-      <ul>
-        <li>js</li>
-        <li>css</li>
-        <li>react</li>
-        <li>html</li>
-      </ul>
+      <div className='content'>
+        Main content
+      </div>
     </div>
   );
 }
