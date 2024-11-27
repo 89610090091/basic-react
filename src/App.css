@@ -1,4 +1,23 @@
-ul li {
-  list-style-type: upper-latin;
-  color: red;
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas:
+    "h h"
+    "nav content"
+  ;
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.header {
+  grid-area: h;
+}
+
+.nav {
+  grid-area: n;
+}
+
+.content {
+  grid-area: c;
 }
