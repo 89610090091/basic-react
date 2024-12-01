@@ -2,7 +2,7 @@
   display: grid;
   width: 1200px;
   margin: 0 auto;
-
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 
   grid-template-areas:
     "h h"
@@ -24,7 +24,7 @@ header img {
 
 .nav {
   grid-area: n;
-  background-color: blueviolet;
+  background-color: rgb(76, 157, 233);
 }
 
 .content {
