@@ -1,23 +1,15 @@
 .app-wrapper {
   display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 
   grid-template-areas:
     "h h"
-    "nav content"
+    "n c"
   ;
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
 }
 
-.header {
-  grid-area: h;
-}
-
-.nav {
-  grid-area: n;
-}
-
-.content {
-  grid-area: c;
-}
