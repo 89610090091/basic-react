@@ -12,9 +12,6 @@ const MyPost = () => {
             </div>
             <div className={s.post}>
                 <Post />
-                <Post />
-                <Post />
-                <Post />
             </div>
         </div>
     )
